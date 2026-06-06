@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raízes em Movimento - Cultura Negra em Aparecida</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Raízes em Movimento</h1>
+        <p>
+          <h2>Projeto de valorização da cultura negra e divulgação das ações culturais em Aparecida</h2>          
+        </p>
+
+        <nav>
+          <a href="#sobre">Sobre</a>
+          <a href="#acoes">Ações</a>
+          <a href="#eventos">Eventos</a>
+          <a href="#galeria">Galeria</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="overlay">
+        <h2>Fortalecendo a identidade cultural e a inclusão social</h2>
+        <p>
+          Tecnologia e cultura unidas para ampliar a visibilidade das
+          manifestações culturais da comunidade negra.
+        </p>
+        <button onclick="mostrarMensagem()">Conheça o Projeto</button>
+      </div>
+    </section>
+
+    <section id="sobre" class="container section">
+      <h2>Sobre o Projeto</h2>
+      <p>
+        Este projeto foi desenvolvido com o objetivo de apoiar a comunidade
+        negra de Aparecida por meio da divulgação digital de ações culturais,
+        eventos, manifestações artísticas e projetos sociais.
+      </p>
+
+      <p>
+        O portal busca promover inclusão digital, valorização da cultura
+        afro-brasileira e fortalecimento das iniciativas culturais locais
+        utilizando tecnologias web acessíveis.
+      </p>
+    </section>
+
+    <section id="acoes" class="section dark-section">
+      <div class="container">
+        <h2>Ações Desenvolvidas</h2>
+
+        <div class="cards">
+          <div class="card">
+            <h3>Divulgação Cultural</h3>
+            <p>
+              Criação de espaço digital para divulgação de eventos,
+              apresentações artísticas, oficinas e atividades culturais.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Inclusão Digital</h3>
+            <p>
+              Incentivo ao uso da tecnologia como ferramenta de comunicação e
+              valorização cultural.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Fortalecimento Comunitário</h3>
+            <p>
+              Apoio à visibilidade das iniciativas sociais e culturais da
+              comunidade negra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="eventos" class="container section">
+      <h2>Eventos e Atividades</h2>
+
+      <ul class="eventos">
+        <li>Roda de conversa sobre cultura afro-brasileira</li>
+        <li>Oficinas culturais e educacionais</li>
+        <li>Apresentações de música e dança</li>
+        <li>Feiras culturais e artesanato</li>
+        <li>Campanhas de conscientização social</li>
+      </ul>
+    </section>
+
+    <section id="galeria" class="section galeria">
+      <div class="galeria-grid">
+        <div class="foto">
+          <img
+            src="./imgs/cultura.jpeg"
+            alt="Evento cultural afro-brasileiro"
+          />
+
+          <div class="texto-foto">
+            <h3>Cultura</h3>
+          </div>
+        </div>
+
+        <div class="foto">
+          <img src="./imgs/arte.jpg" alt="Apresentação artística" />
+
+          <div class="texto-foto">
+            <h3>Arte</h3>
+          </div>
+        </div>
+
+        <div class="foto">
+          <img
+            src="./imgs/historia.jpeg"
+            alt="História da cultura afro-brasileira"
+          />
+
+          <div class="texto-foto">
+            <h3>História</h3>
+          </div>
+        </div>
+
+        <div class="foto">
+          <img src="./imgs/comunidade.jpg" alt="Comunidade cultural" />
+
+          <div class="texto-foto">
+            <h3>Comunidade</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="container section">
+      <h2>Contato</h2>
+
+      <form id="formContato">
+        <input type="text" placeholder="Nome" required />
+        <input type="email" placeholder="E-mail" required />
+        <textarea placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <p id="mensagem"></p>
+    </section>
+
+    <footer>
+      <p>
+        Projeto Extensionista - Engenharia de Software - Anhanguera - Unopar |
+        Guaratinguetá/SP
+      </p>
+    </footer>
+
+    <button id="btnTopo" title="Voltar ao topo">↑</button>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
