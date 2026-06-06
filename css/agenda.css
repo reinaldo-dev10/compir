@@ -95,10 +95,7 @@ nav a:hover::before{
     height:500px;
 
     background: url('https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1600&auto=format&fit=crop') center/cover;
-    linear-gradient(rgba(0,0,0,0.6),
-    rgba(0,0,0,0.6)),
-    url('../imgs/banner-afro.jpg');
-
+    
     background-size:cover;
     background-position:center;
 
