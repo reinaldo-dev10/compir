@@ -282,27 +282,28 @@ footer{
     border:none;
     border-radius:50%;
 
-    background:#111;
-    color:white;
+    background:#d4a017;
+    color:#111;
 
     font-size:1.5rem;
     font-weight:bold;
 
     cursor:pointer;
 
-    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    box-shadow:0 4px 10px rgba(0,0,0,0.4);
 
     opacity:0;
     visibility:hidden;
 
-    transition:0.3s;
+    transition:0.3s ease;
 
     z-index:999;
 }
 
 #btnTopo:hover{
-    background:#d4a017;
     transform:scale(1.1);
+
+    background:white;
 }
 
 #btnTopo.show{
